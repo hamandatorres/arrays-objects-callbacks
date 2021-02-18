@@ -18,8 +18,10 @@ var arr = [10,20,30];
 */
 
 //Code Here
-
-
+function first(arr){
+  return first[0]
+}
+console.log(first)
 
 ////////// PROBLEM 2 //////////
 
@@ -33,9 +35,10 @@ var arr = [40,50,60];
 */
 
 //Code Here
-
-
-
+function last(arr) {
+  return last[2]
+}
+last()
 ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
@@ -48,8 +51,11 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 */
 
 //Code Here
-
-
+function looper(family) {
+  for (let i = 0; i <= 0; i++)
+  console.log(i)
+}
+looper()
 
 ////////// PROBLEM 4 //////////
 
@@ -63,8 +69,11 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
-
-
+function reversedLooper(letters){
+  for (let i = 4;i >= 0;i --)
+  console.log(i)
+}
+reversedLooper()
 
 ////////// PROBLEM 5 //////////
 
@@ -76,12 +85,13 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
   Write a function named evenFinder that is given nums as it's only argument.
   Return an array that contains the even numbers from the nums array.
 */
-
 //Code Here
+function evenFinder(nums) {
+  for (var i = 0; i % 2 == 0; i++);
+  console.log(i)
+}
 
-
-
-
+evenFinder();
 
 
 
