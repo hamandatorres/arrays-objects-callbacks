@@ -13,7 +13,11 @@
   Give it a key of name with the value being your name, and another key of age with the value being your age.
   Then alert your name using dot notation.
 */
-
+let me = {
+  name:'Carlos',
+  age: 31,
+}
+// console.log(me.name.alert) 
 //Code here
 
 ////////// PROBLEM 2 //////////
@@ -24,6 +28,15 @@
 */
 
 //Code here
+const favoriteThings = {
+  band: '',
+  food: '',
+  person: '',
+  book: '',
+  movie: '',
+  holiday: '',
+}
+const Things = ['none', 'meat', 'wife', 'none', 'sonic', 'christmas']
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -31,14 +44,17 @@
 */
 
 //Code here
-
+favoriteThings.car = 'prius'
+favoriteThings.brand = 'none'
+console.log(favoriteThings)
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 ////////// PROBLEM 3 //////////
 
 /*
@@ -48,7 +64,12 @@
   Set the value of that key to 'chapstick'.
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
+let backpack = {
 
+}
+let item = 'firstPocket'
+backpack[item] = 'chapstick'
+backpack.color = 'black'
 //Code here
 
 /*
@@ -56,7 +77,7 @@
 */
 
 //Code here
-
+backpack.alert
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
@@ -64,7 +85,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backpack)
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
@@ -85,7 +106,9 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = 'Bryan G. Smith'
+user2.email = 'bryan.smith@devmounta.in'
+console.log(user2)
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 

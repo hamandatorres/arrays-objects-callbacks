@@ -19,7 +19,7 @@ var arr = [10,20,30];
 
 //Code Here
 function first(arr){
-  return first[0]
+  return arr[0]
 }
 console.log(first)
 
@@ -36,9 +36,9 @@ var arr = [40,50,60];
 
 //Code Here
 function last(arr) {
-  return last[2]
 }
-last()
+arr[2]
+
 ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
